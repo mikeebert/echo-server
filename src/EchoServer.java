@@ -21,7 +21,7 @@ public class EchoServer {
 
 			String s;
 
-			while ((s = in.readLine()) != null) {
+			while ((s = in.readLine()) != "goodbye") {
 				out.println(s);
 			}
 
